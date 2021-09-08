@@ -15,5 +15,4 @@ ports:
     onOpen: open-preview
     visibility: public
   - port: 9915
-    onOpen: open-browser
     visibility: public
