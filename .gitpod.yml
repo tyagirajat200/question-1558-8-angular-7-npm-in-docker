@@ -6,8 +6,8 @@ tasks:
     command: npm start
   - name: 'Terminal 2'
     openMode: split-right
-    before: chmod 0755 ./chrome-test-setup.sh 
-    init: sh ./chrome-test-setup.sh # runs during prebuild
+    init: chmod 0755 ./chrome-test-setup.sh # runs during prebuild
+    command: sh ./chrome-test-setup.sh
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
